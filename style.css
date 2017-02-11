@@ -1,0 +1,189 @@
+/* light pink */
+/* dark pink */
+/*dark cayn */
+/*dark cayn */
+body {
+  color: #AD1457;
+  background-color: #F8BBD0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Patrick Hand SC', cursive;
+}
+html h1, body h1 {
+  font-size: 3rem;
+}
+html h4, body h4 {
+  font-size: 2rem;
+}
+html .row, body .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  margin-bottom: 3rem;
+}
+html .row button, body .row button {
+  align-self: center;
+  background: transparent;
+  padding: 1rem 1rem;
+  margin: 0 1rem;
+  transition: all .5s ease;
+  color: #00838F;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  outline: none;
+  box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, 0.2);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  /*
+  Above is shorthand for:
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-bottom-right-radius: 225px 15px;
+  border-bottom-left-radius:15px 255px;
+  */
+}
+html .row button:hover, body .row button:hover {
+  box-shadow: 2px 8px 4px -6px rgba(0, 0, 0, 0.3);
+}
+html .row button.lined.thick, body .row button.lined.thick {
+  border: solid 7px #AD1457;
+}
+html .row button.dotted.thick, body .row button.dotted.thick {
+  border: dotted 5px #AD1457;
+}
+html .row button.dashed.thick, body .row button.dashed.thick {
+  border: dashed 5px #AD1457;
+}
+html .row button.lined.thin, body .row button.lined.thin {
+  border: solid 2px #AD1457;
+}
+html .row button.dotted.thin, body .row button.dotted.thin {
+  border: dotted 2px #AD1457;
+}
+html .row button.dashed.thin, body .row button.dashed.thin {
+  border: dashed 2px #AD1457;
+}
+html .row .btn, body .row .btn {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #AD1457;
+  box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, 0.2);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  color: #AD1457;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  color: #00838F;
+  font-size: 2rem;
+  padding: 1rem 1rem;
+  margin: 0 1rem;
+}
+html .row .btn:hover, html .row .btn:focus, body .row .btn:hover, body .row .btn:focus {
+  color: #F8BBD0;
+  outline: 0;
+}
+html .row .decide, body .row .decide {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+html .row .decide:hover, body .row .decide:hover {
+  box-shadow: 0 0 40px 40px #AD1457 inset;
+}
+html .row .commit, body .row .commit {
+  border-radius: 3em;
+  border-color: #AD1457;
+  color: #00838F;
+  background-image: linear-gradient(to right, rgba(173, 20, 87, 0.6), rgba(173, 20, 87, 0.6) 5%, #AD1457 5%, #AD1457 10%, rgba(173, 20, 87, 0.6) 10%, rgba(173, 20, 87, 0.6) 15%, #AD1457 15%, #AD1457 20%, rgba(173, 20, 87, 0.6) 20%, rgba(173, 20, 87, 0.6) 25%, #AD1457 25%, #AD1457 30%, rgba(173, 20, 87, 0.6) 30%, rgba(173, 20, 87, 0.6) 35%, #AD1457 35%, #AD1457 40%, rgba(173, 20, 87, 0.6) 40%, rgba(173, 20, 87, 0.6) 45%, #AD1457 45%, #AD1457 50%, rgba(173, 20, 87, 0.6) 50%, rgba(173, 20, 87, 0.6) 55%, #AD1457 55%, #AD1457 60%, rgba(173, 20, 87, 0.6) 60%, rgba(173, 20, 87, 0.6) 65%, #AD1457 65%, #AD1457 70%, rgba(173, 20, 87, 0.6) 70%, rgba(173, 20, 87, 0.6) 75%, #AD1457 75%, #AD1457 80%, rgba(173, 20, 87, 0.6) 80%, rgba(173, 20, 87, 0.6) 85%, #AD1457 85%, #AD1457 90%, rgba(173, 20, 87, 0.6) 90%, rgba(173, 20, 87, 0.6) 95%, #AD1457 95%, #AD1457 100%);
+  background-position: 0 0;
+  background-size: 100%;
+  transition: background 300ms ease-in-out;
+}
+html .row .commit:hover, body .row .commit:hover {
+  background-position: 100px;
+  color: #F8BBD0;
+}
+html .row .succeed, body .row .succeed {
+  box-shadow: 0 0 40px 40px #AD1457 inset, 0 0 0 0 #AD1457;
+  transition: all 150ms ease-in-out;
+}
+html .row .succeed:hover, body .row .succeed:hover {
+  box-shadow: 0 0 10px 0 #AD1457 inset, 0 0 10px 4px #AD1457;
+  color: #AD1457;
+}
+html .row .listen, body .row .listen {
+  background-image: linear-gradient(45deg, #AD1457 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  transition: background 300ms ease-in-out;
+}
+html .row .listen:hover, body .row .listen:hover {
+  background-position: 0;
+  color: #F8BBD0;
+}
+html .row .learn, body .row .learn {
+  border-color: #AD1457;
+  border-radius: 0;
+  color: #AD1457;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: color 150ms ease-in-out;
+}
+html .row .learn:after, body .row .learn:after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 100%;
+  background: #AD1457;
+  z-index: -1;
+  transition: width 150ms ease-in-out;
+}
+html .row .learn:hover, body .row .learn:hover {
+  color: #F8BBD0;
+}
+html .row .learn:hover:after, body .row .learn:hover:after {
+  width: 110%;
+}
+html .row .grow, body .row .grow {
+  border-radius: 3em;
+  border-color: #AD1457;
+  color: #AD1457;
+  background-image: linear-gradient(to bottom, transparent 50%, #AD1457 50%);
+  background-position: 0% 0%;
+  background-size: 210%;
+  transition: background 150ms ease-in-out, color 150ms ease-in-out;
+}
+html .row .grow:hover, body .row .grow:hover {
+  color: #F8BBD0;
+  background-position: 0 100%;
+}
+html .row .monkey1, body .row .monkey1 {
+  border-radius: 3em;
+  border-color: #AD1457;
+  color: #AD1457;
+}
+html .row .monkey2, body .row .monkey2 {
+  border-radius: 1em;
+  border-color: #AD1457;
+  color: #AD1457;
+}
+html .row .monkey3, body .row .monkey3 {
+  border-color: #AD1457;
+  color: #AD1457;
+}
